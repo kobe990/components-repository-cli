@@ -1,11 +1,11 @@
 {
   "name": "components-repository-cli",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "license": "MIT",
   "repository": "https://gitlab.alipay-inc.com/xiang.zxa/components-repository-cli",
   "description": "the cli tool of init the component repository",
   "main": "./lib/components.js",
-  "bin": "./lib/components.js",
+  "bin": { "components": "./lib/components.js"},
   "dependencies": {
     "chalk": "^2.4.2",
     "commander": "^2.19.0",
