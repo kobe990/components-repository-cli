@@ -5,7 +5,7 @@
   "repository": "https://github.com/kobe990/components-repository-cli",
   "description": "the cli tool of init the component repository",
   "main": "./lib/components.js",
-  "bin": { "components": "./lib/components.js"},
+  "bin": { "components": "./lib/components.js" },
   "dependencies": {
     "chalk": "^2.4.2",
     "commander": "^2.19.0",
